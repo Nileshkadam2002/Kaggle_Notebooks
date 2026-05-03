@@ -1,21 +1,40 @@
 # Multi-Cuisine Recipes 🍲
 
-Welcome to the **Multi-Cuisine Recipes** project! This repository contains data analysis, visualization, and machine learning models centered around diverse culinary datasets from across the globe.
+This folder contains a comprehensive Exploratory Data Analysis (EDA) of global cuisines, focusing on ingredient distributions, preparation methods, and regional culinary trends.
 
-## 📌 Project Overview
-This project explores the intersection of data science and gastronomy. The goal is to uncover patterns in ingredients, cooking styles, and nutritional content across different cultures.
+---
 
-## 📂 Contents
-* **Notebooks/**: Jupyter/Kaggle notebooks containing the data cleaning and analysis.
-* **Data/**: (Optional) Descriptions or links to the datasets used (e.g., Kaggle datasets).
-* **Visualizations/**: High-quality charts and plots showing ingredient distributions and cuisine similarities.
+## 📂 Project Files
 
-## 🛠️ Key Features
-* **Ingredient Analysis**: Identifying the "signature" ingredients for various cuisines.
-* **Cuisine Prediction**: Machine learning models to predict the cuisine type based on a list of ingredients.
-* **Nutritional Insights**: Comparative analysis of caloric and macronutrient values across regions.
+* **[Multi_Cuisine_Recipe_Dataset[1].csv](https://github.com/Nileshkadam2002/Kaggle_Notebooks/blob/main/Multi-Cuisine%20Recipes/Multi_Cuisine_Recipe_Dataset%5B1%5D.csv)**: The primary dataset containing recipe details, ingredients, and cuisine categories.
+* **[multi-cuisine-recipe-eda (2).ipynb](https://github.com/Nileshkadam2002/Kaggle_Notebooks/blob/main/Multi-Cuisine%20Recipes/multi-cuisine-recipe-eda%20(2).ipynb)**: The Jupyter Notebook documenting the full data science workflow, including data cleaning and visualization.
 
-## 🚀 How to Use
-1. Clone this repository:
-   ```bash
+## 📊 Analysis Workflow
+
+The analysis in the `.ipynb` file covers:
+1.  **Data Loading**: Importing the recipe `.csv` and inspecting its structure.
+2.  **Exploratory Data Analysis (EDA)**: 
+    * Visualizing the most popular cuisines.
+    * Analyzing common ingredients across different cultures.
+    * Distribution of cooking and preparation times.
+3.  **Insights**: Identifying unique patterns that define specific regional dishes.
+
+## 🛠️ Tools & Libraries
+
+This project utilizes the following Python stack:
+* **Pandas**: For data manipulation of the CSV file.
+* **Matplotlib & Seaborn**: For generating statistical charts and graphs.
+* **NumPy**: For numerical computations.
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash      
    git clone [https://github.com/Nileshkadam2002/Kaggle_Notebooks.git](https://github.com/Nileshkadam2002/Kaggle_Notebooks.git)
+2.Navigate to this directory
+    cd "Multi-Cuisine Recipes"
+3.Install dependencies and launch Jupyter:
+pip install pandas seaborn matplotlib
+jupyter notebook
+  
+   
